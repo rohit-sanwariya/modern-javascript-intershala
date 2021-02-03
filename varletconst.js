@@ -15,3 +15,8 @@ function varIsBad(){
 }
 
 varIsBad()
+
+let a = 14;
+const b = 13;
+a = 17;
+// b = 26; //TypeError: Assignment to constant variable.??
